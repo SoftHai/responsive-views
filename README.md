@@ -14,4 +14,4 @@ Install
 
 Usage
 ================
-Take a look into the wiki and/or take a look at the Demo-Folder in the repository
+Take a look into the wiki(https://github.com/SoftHai/responsive-views/wiki) and/or take a look at the Demo-Folder in the repository
