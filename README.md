@@ -1,7 +1,9 @@
 responsive-views
 ================
 
-A collection of main view controls
+A collection of view controls which scale over a wide range of screens (Mobile -> Tablet -> Desktop)
+ * SplitView (JQuery / Angular Version)
+ * BredcrumbView (JQuery Version)
 
 Dependancies
 ================
