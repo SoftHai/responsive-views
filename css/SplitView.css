@@ -40,7 +40,7 @@
 .sh-splitview-hide-fullScreen { }
 .sh-splitview-hide-primary { }
 .sh-splitview-hide-secondary { }
-.sh-splitview-hide { display:none; }
+.sh-splitview-hide { display:none!important; }
 /* ------------------------------------------------- */
 /* ---------------Sidebar Right--------------------- */
 /* ------------------------------------------------- */
@@ -166,7 +166,7 @@
     {
         position:absolute;
         left: 0%;
-        width: 33.33333333333333%; /* bootstrap size xx-4 */
+        width: 40%;
         opacity: 1;
     } 
 
@@ -175,12 +175,12 @@
     {
         position:absolute;
         right: 0%;
-        width: 66.66666666666666%; /* bootstrap size xx-8 */
+        width: 58%;
         opacity: 1;
     }
     
-    .sh-splitview-hide-splitScreen { display: none; }
-    .sh-splitview-hide { display:inherit; }
+    .sh-splitview-hide { display:inherit!important; }
+    .sh-splitview-hide-splitScreen { display: none!important; }
 }
 
 @media (min-width: 1200px) /* Large Devices (Bootstrap LG - Desktop) */
@@ -190,7 +190,7 @@
     {
         display: inline;
         z-index: auto;
-        width:16.666666666666664%; /* bootstrap size xx-2 */
+        width:15%; 
         opacity: 1;
     }
     
@@ -199,7 +199,7 @@
     {
         display: inline;
         z-index: auto;
-        width:16.666666666666664%; /* bootstrap size xx-2 */
+        width:15%;
         opacity: 1;
     }
     
@@ -208,8 +208,8 @@
     {
         display: inline;
         position:absolute;
-        left: 16.666666666666664%; /* bootstrap size xx-2 */
-        width: 25%; /* bootstrap size xx-3 */
+        left: 16%; 
+        width: 27%;
     } 
 
     .sh-splitview-primary-active.sh-splitview-sidebar-right-present,
@@ -217,9 +217,9 @@
     {
         display: inline;
         position:absolute;
-        right: 16.666666666666664%; /* bootstrap size xx-2 */
-        width: 41.66666666666667%; /* bootstrap size xx-5 */
+        right: 16%; 
+        width: 40%;
     }
     
-    .sh-splitview-hide-fullScreen { display: none; }
+    .sh-splitview-hide-fullScreen { display: none!important; }
 }
