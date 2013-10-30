@@ -113,8 +113,8 @@
                 splitViewManager.SecondaryView.toggleClass("sh-splitview-secondary-active", false);
                 splitViewManager.SecondaryView.toggleClass("sh-splitview-secondary-passive", true);
                 
-                $('.sh-splitview-hide-primary').toggleClass('sh-splitview-hide');
-                $('.sh-splitview-hide-secondary').toggleClass('sh-splitview-hide');
+                $('.sh-splitview-hide-primary').toggleClass('sh-splitview-hide', true);
+                $('.sh-splitview-hide-secondary').toggleClass('sh-splitview-hide', false);
                 break;
                 
             case "secondary":
@@ -124,8 +124,8 @@
                 splitViewManager.SecondaryView.toggleClass("sh-splitview-secondary-active", true);
                 splitViewManager.SecondaryView.toggleClass("sh-splitview-secondary-passive", false);
                 
-                $('.sh-splitview-hide-primary').toggleClass('sh-splitview-hide');
-                $('.sh-splitview-hide-secondary').toggleClass('sh-splitview-hide');
+                $('.sh-splitview-hide-primary').toggleClass('sh-splitview-hide', false);
+                $('.sh-splitview-hide-secondary').toggleClass('sh-splitview-hide', true);
                 break;
         }
     };
