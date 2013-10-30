@@ -1,7 +1,9 @@
 responsive-views
 ================
 
-A collection of main view controls
+A collection of view controls which scale over a wide range of screens (Mobile -> Tablet -> Desktop)
+ * SplitView (JQuery / Angular Version)
+ * BredcrumbView (JQuery Version)
 
 Dependancies
 ================
@@ -14,4 +16,4 @@ Install
 
 Usage
 ================
-Take a look into the wiki and/or take a look at the Demo-Folder in the repository
+Take a look into the wiki(https://github.com/SoftHai/responsive-views/wiki) and/or take a look at the Demo-Folder in the repository
